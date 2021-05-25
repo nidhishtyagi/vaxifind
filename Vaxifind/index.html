@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable-no">
+    <meta name="HandheldFriendly" content="true">
+    <title>Covivax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">vaxifind.in</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" id="header-text" aria-current="page" href="./about.html">Find vaccination centres near you.</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Pincode -->
+<div class="position-absolute" id="pincode-text">
+    <label for="pincode" class="col-form-label">Pincode:</label>
+</div>
+
+
+<div class="position-absolute" id="pincode-form">
+    <input class="form-control" type="text" placeholder="Ex-110001" aria-label="pincode">
+</div>
+
+<!-- Date -->
+<div class="position-absolute" id="date-text">
+    <label for="date" class="col-form-label">Date:</label>
+</div>
+
+<div class="position-absolute" id="date-form">
+    <input class="form-control" type="text" placeholder="DD-MM-YYYY" aria-label="date">
+</div>
+
+<!-- Search -->
+<div class="position-absolute" id="search-button">
+    <button type="button" class="btn btn-dark">Search</button>
+</div>
+
+<!-- Vaccination Info -->
+
+<div class="container">
+<div class="rectangle">
+    <!-- Vaccine Centre Heading -->
+    <p class="lead" id="centre-heading"><strong>Vaccination Centre Details</strong></p>
+
+    <!-- Vaccine Centre Info -->
+    <dl class="row">
+        <dt class="col-sm-3">Center Address</dt>
+        <dd class="col-sm-9">G I M S,Kasna, Gr. Noida,Gautam Buddha Nagar,Uttar Pradesh</dd>
+    
+        <dt class="col-sm-3">Timing</dt>
+        <dd class="col-sm-9">09:00:00 to 17:00:00</dd>
+    
+        <dt class="col-sm-3">Fee</dt>
+        <dd class="col-sm-9">0</dd>
+    
+        <dt class="col-sm-3">Vaccine Name</dt>
+        <dd class="col-sm-9">Covishield</dd>
+
+        <dt class="col-sm-3">Age Limit</dt>
+        <dd class="col-sm-9">45</dd>
+
+        <dt class="col-sm-3">Vaccination Capacity</dt>
+        <dd class="col-sm-9">273</dd>
+
+    </dl>
+
+    <!-- Line -->
+    <div class="vertical-line"></div>
+
+    <!-- Slots Heading -->
+    <p class="lead" id="slots-heading"><strong>Available Slots</strong></p>
+
+    <!-- Available Slots -->
+    <ol id='table'>
+        <li>9:00AM-11:00AM</li>
+        <li>12:00PM-2:00PM</li>
+        <li>4:00PM-6:00PM</li>
+    </ol>
+</div>
+</div>
+
+
+
+<!-- Footer -->
+<nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
+    <div class="container-fluid">
+        <span class="navbar-text">Powered by:</span>
+        <a target="_blank" href="https://apisetu.gov.in/public/api/cowin">
+            <img src="./api setu.png" alt="api setu" id="api-logo">
+        </a>
+        <span class="navbar-text" id="nidhish">&copy;Nidhish Tyagi 2021</span>
+
+    
+    </div>
+
+</nav>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+.rectangle {
+  width: 1200px;
+  height: 380px;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  margin-top: -190px;
+  margin-left: -600px;
+
+  background: #212529;
+  border: 3px solid #00ff90;
+  box-sizing: border-box;
+  box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar-brand {
+  font-weight: 300;
+  font-size: x-large;
+  color: #00ff90 !important;
+}
+
+#header-text {
+  color: #949494;
+}
+
+.date-text {
+  position: absolute;
+  top: 15%;
+  right: 24%;
+}
+
+html {
+  font-size: 100%;
+}
+
+#pincode-text {
+  left: 5.5%;
+  top: 15%;
+}
+
+#pincode-form {
+  left: 11%;
+  top: 15%;
+}
+
+#date-text {
+  left: 28.5%;
+  top: 15%;
+}
+
+#date-form {
+  left: 32%;
+  top: 15%;
+}
+
+#search-button {
+  left: 50%;
+  top: 15%;
+}
+
+#footer {
+  height: 8%;
+}
+
+#api-logo {
+  position: absolute;
+  left: 8%;
+  top: 40%;
+  width: 100px;
+  height: 23px;
+}
+
+.row {
+  color: #f5f5f5;
+  position: absolute;
+  left: 2%;
+  top: 20%;
+}
+
+#table {
+  width: 20%;
+  position: absolute;
+  right: 4.2%;
+  top: 19%;
+  padding: none;
+}
+
+ol li {
+  color: #f5f5f5;
+}
+
+#centre-heading {
+  color: #00ff90;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+
+#slots-heading {
+  color: #00ff90;
+  position: absolute;
+  right: 12%;
+  top: 5%;
+}
+
+.vertical-line {
+  border-left: 3px solid #00ff90;
+  height: 375px;
+  position: absolute;
+  right: 30%;
+  margin-left: 1.5px;
+}
+
+#nidhish {
+  text-decoration: none !important;
+}
